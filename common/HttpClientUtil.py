@@ -15,7 +15,7 @@ class HttpClientUtil:
         self.session = requests.Session()
 
     def get(self, url, params, **kwargs):
-        return self.session.request(url=url, method="get", params=params, **kwargs)
+        return self.session.request(url=url, method="get", params=params, verify=False, **kwargs)
 
     def post(self, url, data=None, json=None, **kwargs):
-        return self.session.request(url=url, method="post", data=data, json=json, **kwargs)
+        return self.session.request(url=url, method="post", data=data, json=json, verify=False, **kwargs)
