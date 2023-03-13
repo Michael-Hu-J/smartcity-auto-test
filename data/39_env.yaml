@@ -1,0 +1,28 @@
+39_host: "https://172.26.55.39"
+39_client_id: 7cbc31a7a11548f79a891fcd8e6ea9b2
+39_client_secret: 983d94f8e9f6ff45704e9892ad4abdedfd82d39759ec3dbd
+
+39_itemcode: csshztwt
+39_description: 十堰新城运加派
+
+39_cityReport:
+  orgCode: ShangBaoZhongXin
+  orgName: 苏州市上报中心
+  postCode: ShangBaoYuan
+  postName: 上报员
+  userCode: jinkesi
+  userName: 金克丝
+39_districtReport:
+  orgCode: XCShangBaoZhongXin
+  orgName: 相城上报中心
+  postCode: XCShangBaoYuan
+  postName: 上报员
+  userCode": xcqsby
+  userName": xcqsby
+39_streetReport:
+  orgCode: jdcgj
+  orgName: 街道城管局
+  postCode: cgy
+  postName: 城管员
+  userCode: wtjdcgy
+  userName: wtjdcgy

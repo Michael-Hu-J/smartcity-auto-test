@@ -4,8 +4,8 @@
 from common.HttpClientUtil import HttpClientUtil
 
 
-class FetchToken(HttpClientUtil):
-    def fetch_token(self):
+class GetToken(HttpClientUtil):
+    def get_token(self):
         url = "https://172.26.55.39" + "/baas/auth/v1.0/oauth2/token"
         data = {
             "grant_type": "client_credentials",

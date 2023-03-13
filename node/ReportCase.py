@@ -2,12 +2,12 @@
 # -*- coding:utf-8 -*-
 
 from common.HttpClientUtil import HttpClientUtil
-from node.FetchToken import FetchToken
+from node.GetToken import GetToken
 import time
 
 
 class ReportCase(HttpClientUtil):
-    access_token = FetchToken().fetch_token()
+    access_token = GetToken().get_token()
 
     def report_case(self):
         url = "https://172.26.55.39" + "/service/SmartCity3__CaseService/1.0.0/ReportCase"

@@ -2,12 +2,12 @@
 # -*- coding:utf-8 -*-
 
 from common.HttpClientUtil import HttpClientUtil
-from node.FetchToken import FetchToken
+from node.GetToken import GetToken
 from node.ReportCase import ReportCase
 
 
 class DispatchCase(HttpClientUtil):
-    access_token = FetchToken().fetch_token()
+    access_token = GetToken().get_token()
     casecode = ReportCase().report_case()
 
     def dispatch_case(self):
